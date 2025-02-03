@@ -1,0 +1,40 @@
+/* Hladké scrollování */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .home__nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    z-index: 100;
+    border-bottom: 1px solid #D4AF37;
+  }
+  
+  .home__nav a {
+    color: #D4AF37;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .home__nav a:hover {
+    color: white;
+  }
+  
+  section {
+    min-height: 100vh;
+    padding: 6rem 2rem 2rem;
+    background-color: #000; /* Pozadí */
+    color: #D4AF37;          /* Barva textu */
+  }
+  
+  .contact-section {
+    background-color: #111;  /* Lehce jiný odstín pro odlišení */
+  }
+  

@@ -1,0 +1,49 @@
+/* openingHours.css */
+
+.opening-hours {
+    padding: 2rem 1rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #D4AF37;
+    font-family: 'UnifrakturMaguntia', cursive;
+    text-align: center;
+  }
+  
+  .opening-hours h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    border-bottom: 2px solid #D4AF37;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+  }
+  
+  .hours-table {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .day {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #D4AF37;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    transition: background 0.3s ease;
+  }
+  
+  .day:hover {
+    background-color: rgba(212, 175, 55, 0.2);
+  }
+  
+  .note {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #D4AF37;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  }
